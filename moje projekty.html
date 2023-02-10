@@ -2,11 +2,18 @@
 <HTMl>
     <head>   
         <link rel="stylesheet" href="style.css">
-        <link rel="script" href="script.js">
         
     </head>
+    
     <body style="background-color: rgb(30,30,30);">
-      
+        
+        <div class="loader"></div>
+    <script>
+        window.addEventListener("load", () => {
+        document.querySelector(".loader").classList.add("loader--hidden");
+        });
+    </script>
+        
         <section> <div class="protokat-odtwarzacz" style="
 	height: 530px;
 	width: 904px;
