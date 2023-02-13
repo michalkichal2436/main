@@ -4,7 +4,8 @@ body {
 }   
 
 .loader {
-  position: fixed;
+  position:fixed;
+  background-color: rgb(30,30,30);
   top: 0;
   left: 0;
   width: 100vw;
@@ -12,9 +13,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(30,30,30);
-  transition: opacity 0.75s, visibility 0.75s;
+  transition: opacity 0.4s, visibility 0.4s;
 }
+
 
 .loader--hidden {
   opacity: 0;
@@ -56,7 +57,6 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    margin-top: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,7 +70,6 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    margin-top: 305px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -99,6 +98,10 @@ body {
     padding-bottom: 8px
   }
 
+  .logoemail {
+    margin-left: 20px;
+    padding-bottom: 5px;
+  }
   .napis-moje-projekty {
     color: white;
     display: inline-flex;
@@ -120,7 +123,6 @@ body {
   padding-top: 0px; 
   height: 35px;
   width: 148px;
-  margin-top: 100px;
   text-align: center;
   }
 
