@@ -3,7 +3,7 @@
     <head>   
         <link rel="stylesheet" href="style.css">
     </head>
-    
+    <script src="https://kit.fontawesome.com/414db64279.js" crossorigin="anonymous"></script>
         <body style="background-color: rgb(30,30,30);"></body>
         
        <div  class="middle" style="max-width: 904px; margin: auto;">
@@ -31,7 +31,7 @@
  <!--Przycisk pobieranie-->
         <a href="https://drive.google.com/file/d/1g_TE_-VRWiXVJclJ7py9d2CQQOqyhJQb/view?usp=share_link" target="_blank" title="Google Drive" style="text-decoration: none;">
             <button class="button2">
-              Pobierz w formacie .blend<img class="piktogram-lupa" src="piktogramy-strona-pobieranie.svg"> 
+                <i class="fa-solid fa-download"></i> Pobierz w formacie .blend 
             </button></a>
          </section>
          
@@ -58,19 +58,28 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen style="margin-top: 25px; margin-left: 25px; 
     border-radius: 20px"></iframe>
-    <button class="button2" style="margin-top: 490px;opacity: 10%;">
-        Pobierz w formacie .blend<img class="piktogram-lupa" src="piktogramy-strona-pobieranie.svg"> 
+    <button class="button2" style="margin-top: 490px;opacity: 10%; cursor: not-allowed;">
+        <i class="fa-solid fa-download"></i> Pobierz w formacie .blend 
       </button></a>
 </section></section>
-</body>
+
+
 
 </div class="middle">
-
+<section>
+    <a href="index.html">
+    <button class="buttonstornaglowna">
+        <i class="fa-solid fa-house"></i> Strona główna
+    </button></a>
+</section>
 <div class="loader"></div>
+
+</body>
 <script>
     window.addEventListener("load", () => {
     document.querySelector(".loader").classList.add("loader--hidden");
  });
+ 
 </script>
 </HTMl>
 

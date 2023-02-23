@@ -111,8 +111,8 @@ body {
   }
 
   .piktogram-lupa {
-    height: 15px;
-    width: 15px;
+    height: auto;
+    width: 12px;
   }
 
   .button1 { 
@@ -167,4 +167,25 @@ body {
     color: white;
     height: 33px;
     width: 238px;
+   }
+
+   .buttonstornaglowna {
+    position: block;
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(8, 117, 206);
+    color: white;
+    font-size: 11pt;
+    margin: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   }
+
+   .buttonstornaglowna:hover {
+    height: 33px;
+    width: 143px;
+    background: linear-gradient(305deg, rgba(8, 117, 206) 25%, rgba(102,255,255,1) 100%);
+
    }
