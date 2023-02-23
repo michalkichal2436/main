@@ -45,9 +45,9 @@ body {
   .podpis {
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
   }
 
   .prostokat{
@@ -111,23 +111,60 @@ body {
   }
 
   .piktogram-lupa {
-    height: 20px;
-    width: 20px;
-    margin-top: 0px;
+    height: 15px;
+    width: 15px;
   }
 
-  .prostokat-moje-projekty {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 0px; 
-  height: 35px;
+  .button1 { 
+  transition-duration: 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  height: 30px;
   width: 148px;
-  text-align: center;
+  border-radius: 50px;
+  background-color: rgba(8, 117, 206);
+  color: white;
+  border:none;
+  font-size: 11pt;
+  box-shadow: 0px 10px 10px 2px rgb(17, 17, 17);
+  
+
+  
   }
 
-  .napis-moje-projekty {
-    text-align: center;
-    padding-left: 0px;
-    padding-top: 0px;
-  }
+   .button1:hover {
+    background: linear-gradient(305deg, rgba(8, 117, 206) 25%, rgba(102,255,255,1) 100%);
+    color: white;
+    height: 33px;
+    width: 151px;
+   }
+
+   .button2 {
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    height: 30px;
+    width: 235px;
+    border-radius: 50px;
+    background-color: rgba(8, 117, 206);
+    color: white;
+    border:none;
+    font-size: 11pt;
+    box-shadow: 0px 10px 10px 2px rgb(17, 17, 17);
+    margin-top: 305px;
+   }
+
+   .button2:hover {
+    background: linear-gradient(305deg, rgba(8, 117, 206) 25%, rgba(102,255,255,1) 100%);
+    color: white;
+    height: 33px;
+    width: 238px;
+   }
